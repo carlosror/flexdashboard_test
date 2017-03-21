@@ -1,2 +1,2 @@
 ## Github page
-https://carlosror.github.io/flexdashboards_test
+https://carlosror.github.io/flexdashboard_test
