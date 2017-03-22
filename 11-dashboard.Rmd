@@ -83,15 +83,18 @@ image(volcano, col = viridis(200, option = "C"))
 
 ## Column 1 {data-width=300}
 
-### Bash support
+### Test csv
 
-```{bash, eval=FALSE, include=FALSE}
-ls *.Rmd
+```{r}
+url <- "http://datasets.flowingdata.com/ppg2008.csv"
+nba_players <- read.csv("ppg2008.csv", row.names = 1)
+summary(nba_players)
 ```
+
 
 ***
 
-This chunk executes bash code.
+Test read csv.
 
 ### Python support
 
